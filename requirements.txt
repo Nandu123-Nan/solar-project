@@ -1,0 +1,9 @@
+streamlit
+pdfplumber
+openpyxl
+pandas
+pillow
+pytesseract
+pdf2image
+
+# project
