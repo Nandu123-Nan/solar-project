@@ -10,7 +10,7 @@ def fill_excel(data):
     ws = wb.active
 
     # Example cells
-    ws["H20"] = data.get("units")
+    ws["H20"] = data.get("units")//units here
     ws["I20"] = data.get("amount")
 
     output_path = "outputs/final_output.xlsx"
