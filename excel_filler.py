@@ -5,7 +5,7 @@ def fill_excel(data):
     print(data)
 
     #load excel template
-    wb = load_workbook("template/solar_template.xlsx")
+    wb = load_workbook("Template/solar_emplate.xlsx")
 
     ws = wb.active
 
